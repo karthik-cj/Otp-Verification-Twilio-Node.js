@@ -8,11 +8,6 @@ const userSchema = new mongoose.Schema(
     number: {
       type: String,
     },
-    address: String,
-    pincode: String,
-    city: String,
-    vehicleId: String,
-    vehicleNumber: String,
   },
   { versionKey: false }
 );
