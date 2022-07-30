@@ -2,7 +2,6 @@ const express = require("express");
 const authRouter = express.Router();
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
-const auth = require("../middlewares/auth");
 const accountSid = "Paste Your Twilio AccountSid Here";
 const authToken = "Paste Your Twilio AuthToken Here";
 const client = require("twilio")(accountSid, authToken);
