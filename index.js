@@ -7,7 +7,6 @@ const DB = "Enter Your DataBase URL Here!!!";
 
 app.use(express.json());
 app.use(authRouter);
-app.use(userRouter);
 
 mongoose
   .connect(DB)
